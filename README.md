@@ -1,6 +1,6 @@
 # Password Generator Extension
 
-![Password Generator Extension](https://github.com/subhamsinhadev/passwordgenextension/blob/main/Icon.png)
+![Password Generator Extension](https://github.com/subhamsinhadev/passwordgenextension/blob/main/icon.png)
 
 A simple random password generator copies to clipboards.
 Check the changelog of the latest version from [releases page](https://github.com/subhamsinhadev/passwordgenextension/releases). 
