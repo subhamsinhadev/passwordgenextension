@@ -16,7 +16,7 @@ Check the changelog of the latest version from [releases page](https://github.co
 
 ### Instructions:
 - Download the latest zip
-- Extarct the zip 
+- Extract the zip 
 - Add to extensions   
 - Open and enjoy.
 
