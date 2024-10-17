@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <style>
+*  {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ffffff, #ffffff);
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+
+        .password-display {
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 18px;
+            color: #333;
+            margin: 20px 0;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            border: 1px solid #ccc;
+        }
+
+        .slider-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        input[type="range"] {
+            -webkit-appearance: none;
+            width: 100%;
+            background: #ddd;
+            height: 5px;
+            border-radius: 10px;
+            outline: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #4a90e2;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        input[type="range"]:hover {
+            background: #bbb;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            background: #d6238c;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            background: #357ABD;
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(1px);
+        }
+
+        #sliderValue {
+            font-weight: bold;
+            color: #4a90e2;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Password Generator</h2>
+
+        <div class="slider-container">
+            <label for="lengthSlider">Length:</label>
+            <input type="range" id="lengthSlider" min="6" max="20" value="12">
+            <span id="sliderValue">12</span>
+        </div>
+
+        <div class="password-display" id="passwordDisplay">Your password will appear here</div>
+
+       
+        <button id="generateButton">Generate Password</button>
+        <button id="copyButton">Copy</button>
+        <h4>Developed with ❤️ By Subham</h4>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
