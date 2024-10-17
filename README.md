@@ -2,7 +2,7 @@
 
 ![Password Generator Extension](https://github.com/subhamsinhadev/passwordgenextension/blob/main/icon.png)
 
-A simple random password generator copies to clipboards.
+A simple random password generator extensio nwhich  copies to clipboards.
 Check the changelog of the latest version from [releases page](https://github.com/subhamsinhadev/passwordgenextension/releases). 
 ### Features:
 * Extension for Chromium Browser
