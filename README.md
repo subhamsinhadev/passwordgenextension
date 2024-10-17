@@ -24,4 +24,4 @@ Check the changelog of the latest version from [releases page](https://github.co
 
 Password Generator Extension app built by Subham Kumar Sinha. Contact Me [here](subhamsinha9206@gmail.com) for more information or suggestions.
 ### Preview:
-![Password Generator Extension](https://github.com/subhamsinhadev/passwordgenextension/blob/main/Preview_pic.jpg)
+![Password Generator Extension](https://github.com/subhamsinhadev/passwordgenextension/blob/main/image.jpg)
