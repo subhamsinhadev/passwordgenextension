@@ -27,11 +27,11 @@
             border-radius: 15px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
             text-align: center;
-            width: 350px;
+            width: 500px;
         }
 
         h2 {
-            color: #333;
+            color: #062ee0;
             margin-bottom: 20px;
             font-size: 24px;
             letter-spacing: 1px;
@@ -83,11 +83,11 @@
         }
 
         button {
-            width: 100%;
+            width: 80%;
             padding: 12px;
             border: none;
             border-radius: 10px;
-            background: #d6238c;
+            background: #062ee0;
             color: #ffffff;
             font-size: 16px;
             cursor: pointer;
@@ -114,7 +114,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Password Generator</h2>
+        <h2>Random Password Generator</h2>
 
         <div class="slider-container">
             <label for="lengthSlider">Length:</label>
@@ -125,8 +125,11 @@
         <div class="password-display" id="passwordDisplay">Your password will appear here</div>
 
        
-        <button id="generateButton">Generate Password</button>
-        <button id="copyButton">Copy</button>
+        <div style="display: flex; gap: 10px;">
+  <button id="generateButton">Generate</button>
+  <button id="copyButton">Copy</button>
+</div>
+
         <h4>Developed with ❤️ By Subham</h4>
     </div>
 
